@@ -1,0 +1,4 @@
+- start typesense server: `pnpm typesense:up`
+- ingest sample data: `pnpm ingest`
+- run query for `filter_by: "fruits:=[apple,pear]"`: `pnpm query`
+- see that returned facet counts don't include "pear", even though we filter on it
